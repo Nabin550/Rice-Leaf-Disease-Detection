@@ -1,0 +1,15 @@
+Random Forest Results (Whole Model):
+Accuracy: 0.9592088998763906
+Precision: 0.9594553323198708
+Recall: 0.9589274082280591
+F1 Score: 0.9590291485273407
+Confusion Matrix:
+[[278   7   5]
+ [  5 262   3]
+ [  2  11 236]]
+
+Per-Class Metrics:
+Class 0: Precision=0.9754385964912281, Recall=0.9586206896551724, F1-Score=0.9669565217391304
+Class 1: Precision=0.9357142857142857, Recall=0.9703703703703703, F1-Score=0.9527272727272728
+Class 2: Precision=0.9672131147540983, Recall=0.9477911646586346, F1-Score=0.9574036511156186
+['random_forest_model.pkl']

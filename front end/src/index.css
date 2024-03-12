@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+background{
+  position: relative;
+  background-image: url(/src/images/riceplant.jpg);
+  height: 100vh;
+  margin: 0%;
+  padding:0%;
+  background-size: cover;
+  filter: blur(5px);
+  filter:brightness(80%);
+  filter:contrast(110%);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0; /* Reset margin to ensure no extra space */
+  z-index: 1;
+}

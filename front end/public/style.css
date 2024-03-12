@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: transparent;
+  }
+
+
+body{
+    background-image: url('riceplant.jpg');
+    height: 100vh;
+    margin: 0%;
+    padding:0%;
+    background-size: cover;
+    filter: blur(5px);
+    filter:brightness(80%);
+    filter:contrast(110%);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0; /* Reset margin to ensure no extra space */
+    z-index: 1;
+}
